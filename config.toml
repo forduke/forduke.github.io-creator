@@ -3,7 +3,6 @@
 # And see https://gohugo.io/getting-started/configuration/ .
 
 baseURL = "https://forduke.github.io/"
-# baseURL = "http://localhost:1313/"
 title = "小侃流年的博客"
 enableRobotsTXT = true
 enableEmoji = true
