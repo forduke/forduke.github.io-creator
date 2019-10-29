@@ -1,10 +1,10 @@
 ---
-title: "Html入门笔记"
+title: "HTML入门笔记"
 date: 2019-10-22T18:32:05+08:00
 draft: false
 ---
 
-# Html入门笔记1
+# HTML入门笔记1
 
 1. HTML是？
    * 上个世纪90年代由欧洲核子研究中心的物理学家蒂姆·伯纳斯-李（Tim Berners-Lee）发明，叫李爵士就行。
@@ -22,18 +22,34 @@ draft: false
    * aside   : 旁支内容
   
 4. 全局属性有哪些?
-   * 我使用的chrome大概有这些，后面有常见的再补充
-   ``` css
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-  ```
+   * class
+     - 类名
 
-5. 常用的内容标签有哪些？
+   * contenteditable
+     - 可编辑内容；
+     - head标签的内容不可见，但style标签可以放在body内，加上这个属性就可以编辑样式
+
+   * hidden
+     - 隐藏标签内容
+
+   * id
+     - id如果重复出现，不会报错，尽量不用；
+     - #xxx  [ id=xxx ] ；
+     - id可以在JS里直接使用，xxx.style.border = '1px solid red' ；
+     - id不能和关键字（window.xxx）相同，否则无效
+
+   * style
+     - 行内样式，参考优先级：
+
+   * tabindex
+     - 控制键盘tab操作的顺序，响应键盘事件
+     - 0是最后顺序，-1是跳过、不访问
+
+   * title
+     - 鼠标放在内容上的提示
+
+
+1. 常用的内容标签有哪些？
    * ol+li 
       - ordered list 有序列表
       - ol里只能有li
